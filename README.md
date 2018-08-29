@@ -1,1 +1,1 @@
-# lhconfig
+# Config file collection
