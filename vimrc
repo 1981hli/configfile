@@ -43,7 +43,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
 Plug 'junegunn/vim-easy-align'
-
 call plug#end()
 let NERDTreeWinSize=31
 let NERDTreeShowHidden=0
