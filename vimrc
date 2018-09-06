@@ -4,21 +4,23 @@ set number
 set nowrap
 set tabstop=2
 set shiftwidth=2
-set ts=2
 set expandtab
 set autoindent
 set laststatus=2
 set ruler
 set hlsearch
-set backspace=eol,start,indent
-set whichwrap+=<,>,h,l
+"set backspace=eol,start,indent
+"set whichwrap+=<,>,h,l
 
-nnoremap ; :
+"nnoremap ; :
 let mapleader="\<Space>"
+map .             <leader><leader>s
+map <leader>;     :
 map <leader>tn    :tabnew<CR>
 map <leader>th    :tabp<CR>
 map <leader>tl    :tabn<CR>
 map <leader>tt    :tabn<CR>
+map <leader>tc    :tabc<CR>
 map <leader>wsh   :split<CR>
 map <leader>wsv   :vsplit<CR>
 map <leader>wn    :NERDTreeTabsToggle<CR>
@@ -43,6 +45,9 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
 Plug 'junegunn/vim-easy-align'
+"Plug 'Yggdroot/indentLine'
 call plug#end()
-let NERDTreeWinSize=31
+let NERDTreeWinSize=40
 let NERDTreeShowHidden=0
+let g:indentLine_setColors = 0
+let g:indentLine_color_term = 12
