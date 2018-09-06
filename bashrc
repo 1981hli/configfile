@@ -12,3 +12,6 @@ fi
 
 # added by Anaconda3 installer
 #export PATH="/home/lihuan/anaconda3/bin:$PATH"
+
+# added by Anaconda3 installer
+export PATH="/home/lihuan/anaconda3/bin:$PATH"
