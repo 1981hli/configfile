@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ln -s ~/.bashrc       ~/src/github/1981hli/ConfigFile/bashrc
-ln -s ~/.tmux.conf    ~/src/github/1981hli/ConfigFile/tmux.conf
-ln -s ~/.vim          ~/src/github/1981hli/ConfigFile/vim
-ln -s ~/.vimrc        ~/src/github/1981hli/ConfigFile/vimrc
-ln -s ~/.zshrc        ~/src/github/1981hli/ConfigFile/zshrc
+ln -s ~/src/github/1981hli/configfile/bashrc	~/.bashrc
+ln -s ~/src/github/1981hli/configfile/tmux.conf	~/.tmux.conf
+ln -s ~/src/github/1981hli/configfile/vim	~/.vim
+ln -s ~/src/github/1981hli/configfile/vimrc	~/.vimrc
+ln -s ~/src/github/1981hli/configfile/zshrc	~/.zshrc
