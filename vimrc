@@ -9,6 +9,7 @@ set autoindent
 set laststatus=2
 set ruler
 set hlsearch
+set mouse=a
 "set backspace=eol,start,indent
 "set whichwrap+=<,>,h,l
 
@@ -34,10 +35,12 @@ map <leader>f     <C-f>
 map <leader>b     <C-b>
 map <leader>F     <C-d>
 map <leader>B     <C-u>
-map <leader>j     <C-e>
-map <leader>k     <C-y>
+map <leader>j     3<C-e>
+map <leader>k     3<C-y>
 map <leader>h     0
 map <leader>l     $
+map <leader>gf    <C-]>
+map <leader>gb    <C-t>
 
 call plug#begin('~/.vim/pluginD')
 Plug 'scrooloose/nerdtree'
