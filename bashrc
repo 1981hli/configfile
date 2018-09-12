@@ -9,9 +9,3 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-
-# added by Anaconda3 installer
-#export PATH="/home/lihuan/anaconda3/bin:$PATH"
-
-# added by Anaconda3 installer
-export PATH="/home/lihuan/anaconda3/bin:$PATH"
