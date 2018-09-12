@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias l='ls -lah --group-directories-first'
+alias la='ls -lah --group-directories-first'
 alias lt='ls -laht'
 alias tmux='tmux -2'
 export PATH="/home/lihuan/soft/anaconda3/bin:$PATH"
