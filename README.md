@@ -1,1 +1,1 @@
-# Config file collection
+# My config file collection
