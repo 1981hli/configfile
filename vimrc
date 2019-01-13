@@ -58,7 +58,7 @@ Plug 'vim-scripts/taglist.vim'
 "Plug 'Yggdroot/indentLine'
 "Plug 'flazz/vim-colorschemes'
 call plug#end()
-let NERDTreeWinSize=34
+let NERDTreeWinSize=35
 let NERDTreeShowHidden=0
 let g:indentLine_setColors = 0
 let g:indentLine_color_term = 12
