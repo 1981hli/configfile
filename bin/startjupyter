@@ -1,0 +1,3 @@
+#!/bin/sh
+nohup /home/lihuan/soft/anaconda3/bin/jupyter notebook &
+#nohup /home/lihuan/soft/anaconda3/bin/python /home/lihuan/soft/anaconda3/bin/jupyter-notebook &
