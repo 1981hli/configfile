@@ -1,20 +1,21 @@
 colorscheme pablo
+"colorscheme gruvbox
 "colorscheme busybee 
 "colorscheme evening
 syntax enable
-set encoding=utf-8
+set encoding   =utf-8
 set number
 set nowrap
-set tabstop=2
-set shiftwidth=2
+set tabstop    =2
+set shiftwidth =2
 set expandtab
 set autoindent
-set laststatus=2
+set laststatus =2
 set ruler
 "set cursorcolumn
 "set cursorline
 set hlsearch
-set mouse=a
+set mouse      =a
 "set backspace=eol,start,indent
 "set whichwrap+=<,>,h,l
 
@@ -48,19 +49,26 @@ map <leader>gf    <C-]>
 map <leader>gb    <C-t>
 
 call plug#begin('~/.vim/pluginD')
-Plug 'scrooloose/nerdtree'
-Plug 'jistr/vim-nerdtree-tabs'
-Plug 'easymotion/vim-easymotion'
-Plug 'scrooloose/nerdcommenter'
-Plug 'junegunn/vim-easy-align'
-Plug 'JuliaEditorSupport/julia-vim'
-Plug 'vim-scripts/taglist.vim'
-"Plug 'Yggdroot/indentLine'
-"Plug 'flazz/vim-colorschemes'
+  Plug 'scrooloose/nerdtree'
+  Plug 'jistr/vim-nerdtree-tabs'
+  Plug 'easymotion/vim-easymotion'
+  Plug 'scrooloose/nerdcommenter'
+  Plug 'junegunn/vim-easy-align'
+  Plug 'vim-scripts/taglist.vim'
+  "Plug 'Yggdroot/indentLine'
+  "Plug 'flazz/vim-colorschemes'
+  Plug 'JuliaEditorSupport/julia-vim'
+  Plug 'rsmenon/vim-mathematica'
+  "Plug 'vim-scripts/Mathematica-Syntax-File'
 call plug#end()
-let NERDTreeWinSize=35
-let NERDTreeShowHidden=0
-let g:indentLine_setColors = 0
-let g:indentLine_color_term = 12
-let Tlist_Show_One_File=1
-let Tlist_Ctags_Cmd="/usr/bin/ctags"
+
+let NERDTreeWinSize         =35
+let NERDTreeShowHidden      =0
+let g:indentLine_setColors  =0
+let g:indentLine_color_term =12
+let Tlist_Show_One_File     =1
+let Tlist_Ctags_Cmd         ="/home/lihuan/soft/anaconda3/bin/ctags"
+
+"xmap ga <Plug>(EasyAlign)
+"nmap ga <Plug>(EasyAlign)
+

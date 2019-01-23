@@ -102,4 +102,9 @@ alias la='ls -lah --group-directories-first'
 alias lt='ls -laht'
 #alias tmux='tmux -2'
 export PATH="/home/lihuan/soft/anaconda3/bin:$PATH"
+export PATH="/home/lihuan/bin:$PATH"
+
+# set for ulua
+export BIT=64
+stty erase ^h
 
