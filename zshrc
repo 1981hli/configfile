@@ -8,7 +8,7 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="ys"
+ZSH_THEME="amuse"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -99,12 +99,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias la='ls -lah --group-directories-first'
+alias lx='ls -lahX --group-directories-first'
 alias lt='ls -laht'
 #alias tmux='tmux -2'
 export PATH="/home/lihuan/soft/anaconda3/bin:$PATH"
-export PATH="/home/lihuan/bin:$PATH"
+export PATH="/home/lihuan/soft/lua/bin:$PATH"
+export PATH="/home/lihuan/soft/julia/bin:$PATH"
 
-# set for ulua
-export BIT=64
-stty erase ^h
+#export BIT=64 # set for ulua
+stty erase ^h # set for luajit to avoid messy code when press enter
 

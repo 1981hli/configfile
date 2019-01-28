@@ -1,7 +1,6 @@
 #!/bin/sh
 
-ln -s ~/src/configfile/bashrc      ~/.bashrc
-ln -s ~/src/configfile/tmux.conf   ~/.tmux.conf
-ln -s ~/src/configfile/vim         ~/.vim
-ln -s ~/src/configfile/vimrc       ~/.vimrc
-ln -s ~/src/configfile/zshrc       ~/.zshrc
+ln -s ~/code/configfile/tmux.conf   ~/.tmux.conf
+ln -s ~/code/configfile/vim         ~/.vim
+ln -s ~/code/configfile/vimrc       ~/.vimrc
+ln -s ~/code/configfile/zshrc       ~/.zshrc
