@@ -1,7 +1,4 @@
-colorscheme pablo
-"colorscheme gruvbox
-"colorscheme busybee 
-"colorscheme evening
+colorscheme pablo "pablo gruvbox busybee evening
 syntax enable
 set encoding   =utf-8
 set number
@@ -16,6 +13,8 @@ set ruler
 "set cursorline
 set hlsearch
 set mouse      =a
+set noswapfile
+set ignorecase smartcase
 "set backspace=eol,start,indent
 "set whichwrap+=<,>,h,l
 
@@ -32,6 +31,9 @@ map <leader>k     3<C-y>
 map <leader>h     0
 map <leader>l     $
 
+imap ;; <ESC>
+imap ;w <ESC>:w<CR>
+
 call plug#begin('~/.vim/pluginD')
   Plug 'scrooloose/nerdtree'
   Plug 'jistr/vim-nerdtree-tabs'
@@ -40,6 +42,7 @@ call plug#begin('~/.vim/pluginD')
   Plug 'vim-scripts/taglist.vim'
   Plug 'JuliaEditorSupport/julia-vim'
   Plug 'rsmenon/vim-mathematica'
+  Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
 let NERDTreeWinSize         =35

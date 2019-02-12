@@ -98,14 +98,24 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#------------------------------------------------------------------------------
+
+#alias tmux='tmux -2'
 alias la='ls -lah --group-directories-first'
 alias lx='ls -lahX --group-directories-first'
 alias lt='ls -laht'
-#alias tmux='tmux -2'
+alias tU='tmux resize-pane -U'
+alias tD='tmux resize-pane -D'
+alias tL='tmux resize-pane -L'
+alias tR='tmux resize-pane -R'
+alias tSv='tmux split-window'
+alias tSh='tmux split-window -h'
+export PATH="/home/lihuan/bin:$PATH"
 export PATH="/home/lihuan/soft/anaconda3/bin:$PATH"
 export PATH="/home/lihuan/soft/lua/bin:$PATH"
+export PATH="/home/lihuan/soft/luajit/bin:$PATH"
+export PATH="/home/lihuan/soft/nodejs/bin:$PATH"
 export PATH="/home/lihuan/soft/julia/bin:$PATH"
-
-#export BIT=64 # set for ulua
-stty erase ^h # set for luajit to avoid messy code when press enter
+export BIT=64 # set for ulua
+#stty erase ^h # set for luajit to avoid messy code when pressing enter
 
