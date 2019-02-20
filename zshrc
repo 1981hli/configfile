@@ -21,7 +21,7 @@ ZSH_THEME="amuse"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+ HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -36,7 +36,7 @@ ZSH_THEME="amuse"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -74,7 +74,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+ export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -100,24 +100,15 @@ source $ZSH/oh-my-zsh.sh
 
 #------------------------------------------------------------------------------
 
-#alias tmux='tmux -2'
+alias lsx='ls -ahX --group-directories-first'
 alias la='ls -lah --group-directories-first'
 alias lx='ls -lahX --group-directories-first'
 alias lt='ls -laht'
 alias tt='tree -L'
-alias tU='tmux resize-pane -U'
-alias tD='tmux resize-pane -D'
-alias tL='tmux resize-pane -L'
-alias tR='tmux resize-pane -R'
-alias tSv='tmux split-window'
-alias tSh='tmux split-window -h'
-alias http-server='http-server -p 9130'
-export PATH="/home/lihuan/bin:$PATH"
-export PATH="/home/lihuan/soft/anaconda3/bin:$PATH"
-export PATH="/home/lihuan/soft/lua/bin:$PATH"
-export PATH="/home/lihuan/soft/luajit/bin:$PATH"
-export PATH="/home/lihuan/soft/nodejs/bin:$PATH"
-export PATH="/home/lihuan/soft/julia/bin:$PATH"
-export BIT=64 # set for ulua
-#stty erase ^h # set for luajit to avoid messy code when pressing enter
+alias tmuxu='tmux resize-pane -U'
+alias tmuxd='tmux resize-pane -D'
+alias tmuxl='tmux resize-pane -L'
+alias tmuxr='tmux resize-pane -R'
+export PATH="$HOME/bin:$PATH"
+#eval $(luarocks path --bin)
 

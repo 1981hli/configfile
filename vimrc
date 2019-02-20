@@ -42,7 +42,8 @@ call plug#begin('~/.vim/pluginD')
   Plug 'vim-scripts/taglist.vim'
   Plug 'JuliaEditorSupport/julia-vim'
   Plug 'rsmenon/vim-mathematica'
-  Plug 'Valloric/YouCompleteMe'
+  Plug 'leafo/moonscript-vim'
+  "Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
 let NERDTreeWinSize         =35
