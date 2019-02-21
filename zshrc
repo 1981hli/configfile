@@ -1,8 +1,12 @@
+ZSH_TMUX_AUTOSTART="true"
+ZSH_TMUX_AUTOSTART_ONCE="true"
+ZSH_TMUX_AUTOCONNECT="ture"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/lihuan/.oh-my-zsh"
+export ZSH="/home/lihuan/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -21,7 +25,7 @@ ZSH_THEME="amuse"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
- HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -36,7 +40,7 @@ ZSH_THEME="amuse"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
- ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -63,8 +67,11 @@ ZSH_THEME="amuse"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
-  vi-mode
+colored-man-pages
+git
+tmux
+vi-mode
+z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -74,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
- export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -100,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 
 #------------------------------------------------------------------------------
 
+alias r='rlwrap'
 alias lsx='ls -ahX --group-directories-first'
 alias la='ls -lah --group-directories-first'
 alias lx='ls -lahX --group-directories-first'
@@ -110,5 +118,5 @@ alias tmuxd='tmux resize-pane -D'
 alias tmuxl='tmux resize-pane -L'
 alias tmuxr='tmux resize-pane -R'
 export PATH="$HOME/bin:$PATH"
-#eval $(luarocks path --bin)
+eval $(luarocks path --bin)
 
