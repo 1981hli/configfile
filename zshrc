@@ -1,6 +1,6 @@
-ZSH_TMUX_AUTOSTART="true"
 ZSH_TMUX_AUTOSTART_ONCE="true"
-ZSH_TMUX_AUTOCONNECT="ture"
+ZSH_TMUX_AUTOCONNECT="true"
+ZSH_TMUX_AUTOSTART="true"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -105,9 +105,7 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#------------------------------------------------------------------------------
-
-alias r='rlwrap'
+alias rw='rlwrap'
 alias lsx='ls -ahX --group-directories-first'
 alias la='ls -lah --group-directories-first'
 alias lx='ls -lahX --group-directories-first'
@@ -118,5 +116,5 @@ alias tmuxd='tmux resize-pane -D'
 alias tmuxl='tmux resize-pane -L'
 alias tmuxr='tmux resize-pane -R'
 export PATH="$HOME/bin:$PATH"
+export BIT=64 # run luajit on 64-bit mode
 eval $(luarocks path --bin)
-
