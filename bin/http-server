@@ -1,2 +1,2 @@
 #!/bin/sh
-$HOME/soft/nodejs/lib/node_modules/npm/node_modules/http-server/bin/http-server -p 9130
+$HOME/.nodejs/node_modules/http-server/bin/http-server -p 9130

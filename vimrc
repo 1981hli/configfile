@@ -49,5 +49,5 @@ call plug#end()
 let NERDTreeWinSize         =35
 let NERDTreeShowHidden      =0
 let Tlist_Show_One_File     =1
-let Tlist_Ctags_Cmd         ="/home/lihuan/soft/anaconda3/bin/ctags"
+let Tlist_Ctags_Cmd         ="$HOME/soft/miniconda/bin/ctags"
 

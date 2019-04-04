@@ -40,7 +40,7 @@ HYPHEN_INSENSITIVE="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -105,16 +105,14 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias rw='rlwrap'
-alias lsx='ls -ahX --group-directories-first'
-alias la='ls -lah --group-directories-first'
-alias lx='ls -lahX --group-directories-first'
 alias lt='ls -laht'
+alias lx='ls -lahX --group-directories-first'
+alias lxs='ls -ahX --group-directories-first'
 alias tt='tree -L'
-alias tmuxu='tmux resize-pane -U'
-alias tmuxd='tmux resize-pane -D'
-alias tmuxl='tmux resize-pane -L'
-alias tmuxr='tmux resize-pane -R'
+alias tmU='tmux resize-pane -U'
+alias tmD='tmux resize-pane -D'
+alias tmL='tmux resize-pane -L'
+alias tmR='tmux resize-pane -R'
 export PATH="$HOME/bin:$PATH"
-export BIT=64 # run luajit on 64-bit mode
+export BAT_THEME="Sublime Snazzy"
 eval $(luarocks path --bin)
