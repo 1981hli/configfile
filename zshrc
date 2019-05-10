@@ -107,12 +107,14 @@ export LANG=en_US.UTF-8
 
 alias lt='ls -laht'
 alias lx='ls -lahX --group-directories-first'
-alias lxs='ls -ahX --group-directories-first'
+alias lxx='ls -ahX --group-directories-first'
 alias tt='tree -L'
 alias tmU='tmux resize-pane -U'
 alias tmD='tmux resize-pane -D'
 alias tmL='tmux resize-pane -L'
 alias tmR='tmux resize-pane -R'
-export PATH="$HOME/bin:$PATH"
 export BAT_THEME="Sublime Snazzy"
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/soft/anaconda/bin:$PATH"
+export PATH="$HOME/soft/julia/bin:$PATH"
 eval $(luarocks path --bin)
